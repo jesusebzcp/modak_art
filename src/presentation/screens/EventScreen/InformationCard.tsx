@@ -1,11 +1,12 @@
+import React, {useCallback, useState} from 'react';
+import {View, StyleSheet, LayoutChangeEvent} from 'react-native';
+import * as Animatable from 'react-native-animatable';
+
 import {formatDate} from '@app/Utilities';
 import {AppText, Separator} from '@pr/components';
 import {SvgCalendar} from '@pr/components/CardEvent/SvgCalendar';
 import {SvgLocation} from '@pr/components/CardEvent/SvgLocation';
 import {COLORS} from '@pr/theme';
-import React, {useCallback, useState} from 'react';
-import {View, StyleSheet, LayoutChangeEvent} from 'react-native';
-import * as Animatable from 'react-native-animatable';
 
 const SPACING_HORIZONTAL = 20;
 

@@ -1,16 +1,20 @@
-import {formatDate} from '@app/Utilities';
-import {COLORS} from '@pr/theme';
-import {METRICS} from '@pr/theme/metrics';
 import React, {useMemo} from 'react';
 import {View, StyleSheet, TouchableOpacity} from 'react-native';
+import {SharedElement} from 'react-navigation-shared-element';
+import * as Animatable from 'react-native-animatable';
 import FastImage from 'react-native-fast-image';
+import Pinchable from 'react-native-pinchable';
+
+import {formatDate} from '@app/Utilities';
+
+import {COLORS} from '@pr/theme';
+import {METRICS} from '@pr/theme/metrics';
+
 import {AppText} from '../AppText';
 import {Separator} from '../Separator';
 import {SvgCalendar} from './SvgCalendar';
 import {SvgLocation} from './SvgLocation';
-import {SharedElement} from 'react-navigation-shared-element';
-import Pinchable from 'react-native-pinchable';
-import * as Animatable from 'react-native-animatable';
+
 type CardEventProps = {
   variant?: 'primary' | 'secondary';
   title: string;

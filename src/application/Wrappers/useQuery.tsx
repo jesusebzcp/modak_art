@@ -1,10 +1,9 @@
-import React from 'react';
+import React, {PropsWithChildren} from 'react';
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import {createAsyncStoragePersister} from '@tanstack/query-async-storage-persister';
-import {QueryClient} from '@tanstack/react-query';
 import {PersistQueryClientProvider} from '@tanstack/react-query-persist-client';
-import {PropsWithChildren} from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {QueryClient} from '@tanstack/react-query';
 
 const queryClient = new QueryClient();
 const asyncStoragePersister = createAsyncStoragePersister({

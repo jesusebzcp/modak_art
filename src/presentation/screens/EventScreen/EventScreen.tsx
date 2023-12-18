@@ -1,4 +1,3 @@
-import {METRICS} from '@pr/theme/metrics';
 import React, {useMemo} from 'react';
 import {
   View,
@@ -7,18 +6,20 @@ import {
   Alert,
   StatusBar,
   Platform,
+  ScrollView,
 } from 'react-native';
-import FastImage from 'react-native-fast-image';
 import {SharedElement} from 'react-navigation-shared-element';
+import FastImage from 'react-native-fast-image';
+import RenderHTML from 'react-native-render-html';
+
+import {METRICS} from '@pr/theme/metrics';
 import {EventScreenProps} from './props';
 import Pinchable from 'react-native-pinchable';
 import {InformationCard} from './InformationCard';
-import {ScrollView} from 'react-native';
 import {EventItem} from '@infra/features/queries/useQueryEvents';
 import {SvgArrowBack} from './SvgArrowBack';
 import {COLORS, opacityColor} from '@pr/theme/colors';
 import {FooterAction} from './FooterAction';
-import RenderHTML from 'react-native-render-html';
 import {AppText} from '@pr/components';
 import * as Animatable from 'react-native-animatable';
 import {useFavoriteEvents} from '@app/Context/FavoriteEventContext';

@@ -1,11 +1,10 @@
-import {useFavoriteEvents} from '@app/Context/FavoriteEventContext';
-import {EventItem} from '@infra/features/queries/useQueryEvents';
-import {Container} from '@pr/components';
-import {AppHeader} from '@pr/components/AppHeader';
-import {CardEvent} from '@pr/components/CardEvent';
-import {METRICS} from '@pr/theme/metrics';
 import React from 'react';
 import {Alert, FlatList, StyleSheet} from 'react-native';
+
+import {useFavoriteEvents} from '@app/Context/FavoriteEventContext';
+import {EventItem} from '@infra/features/queries/useQueryEvents';
+import {AppHeader, CardEvent, Container} from '@pr/components';
+import {METRICS} from '@pr/theme/metrics';
 
 export const FavoritesScreen = () => {
   const {favoriteEvents, removeFavoriteEvent} = useFavoriteEvents();

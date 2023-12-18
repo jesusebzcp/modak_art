@@ -1,14 +1,14 @@
 import React from 'react';
+import {TouchableOpacity, View, StyleSheet} from 'react-native';
 
-import {AppText, Separator} from '@pr/components';
 import {COLORS} from '@pr/theme';
 import {METRICS} from '@pr/theme/metrics';
-import {TouchableOpacity, View, StyleSheet} from 'react-native';
-import {SvgMenuBurger} from './SvgMenuBurger';
-import {SvgNotifications} from './SvgNotifications';
-import {AppInput} from '@pr/components/AppInput';
-import {SvgSearch} from './SvgSearch';
+import {AppText, Separator, AppInput} from '@pr/components';
 import {useSearch} from '@app/Context/SearchContext';
+
+import {SvgNotifications} from './SvgNotifications';
+import {SvgMenuBurger} from './SvgMenuBurger';
+import {SvgSearch} from './SvgSearch';
 
 type HeaderProps = {
   onMenuBurger(): void;

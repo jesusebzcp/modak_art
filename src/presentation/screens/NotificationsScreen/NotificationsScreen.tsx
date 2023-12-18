@@ -1,8 +1,7 @@
-import {AppText, Container} from '@pr/components';
-import {AppHeader} from '@pr/components/AppHeader';
 import React, {useEffect} from 'react';
-import notifee from '@notifee/react-native';
 import {StyleSheet, View} from 'react-native';
+import {AppText, Container, AppHeader} from '@pr/components';
+import notifee from '@notifee/react-native';
 import {METRICS} from '@pr/theme/metrics';
 import {COLORS} from '@pr/theme';
 

@@ -1,10 +1,13 @@
-import {FavoriteEventsProvider} from '@app/Context/FavoriteEventContext';
-import {SearchProvider} from '@app/Context/SearchContext';
-import {WrapperQueries} from '@app/Wrappers/useQuery';
-import {Navigation} from '@pr/navigation';
 import React, {useEffect} from 'react';
 import {AppState} from 'react-native';
+
+import {Navigation} from '@pr/navigation';
+
+import {WrapperQueries} from '@app/Wrappers/useQuery';
 import {onDisplayNotification} from '@app/Utilities';
+
+import {FavoriteEventsProvider} from '@app/Context/FavoriteEventContext';
+import {SearchProvider} from '@app/Context/SearchContext';
 
 const App = () => {
   useEffect(() => {

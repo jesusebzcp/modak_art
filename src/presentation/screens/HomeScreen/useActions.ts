@@ -1,6 +1,6 @@
+import {useMemo} from 'react';
 import {useSearch} from '@app/Context/SearchContext';
 import {useQueryEvents} from '@infra/features/queries/useQueryEvents';
-import {useMemo} from 'react';
 
 const formatQueryParam = (qs: string) => qs.trim().toLowerCase().trim();
 
@@ -19,6 +19,7 @@ export const useActions = ({page}: {page: number}) => {
     }
     return queryEvents?.data?.data ?? [];
   }, [searchQuery, queryEvents]);
+
   return {
     queryEvents,
     events,

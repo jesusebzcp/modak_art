@@ -1,21 +1,20 @@
 import React, {useCallback, useState} from 'react';
+import {Linking} from 'react-native';
 
-import {Container} from '@pr/components';
-import {CardEvent} from '@pr/components/CardEvent';
+import {Container, CardEvent, AppModal} from '@pr/components';
 
 import {Header} from './Header';
-import {HorizontalList} from './HorizontalList';
 import {HomeProps} from './props';
 import {useActions} from './useActions';
-import {AppModal} from '@pr/components/AppModal/AppModal';
 import {ContentMenu} from './ContentMenu';
-import {Linking} from 'react-native';
+import {HorizontalList} from './HorizontalList';
 
 export const HomeScreen = (props: HomeProps) => {
   const [openMenuBurger, setOpenMenuBurger] = useState(false);
   const {events} = useActions({
     page: 1,
   });
+
   const {events: events2} = useActions({
     page: 2,
   });
@@ -27,9 +26,7 @@ export const HomeScreen = (props: HomeProps) => {
     props.navigation.navigate('FAVORITE');
   }, []);
 
-  const moreData = () => {
-    Linking.openURL('https://api.artic.edu/docs/');
-  };
+  const moreData = () => Linking.openURL('https://api.artic.edu/docs/');
 
   return (
     <Container>
@@ -43,6 +40,7 @@ export const HomeScreen = (props: HomeProps) => {
           textCallToAction: 'See all',
           onAction: moreData,
         }}
+        keyExtractor={item => item.id.toString()}
         renderItem={({item, index}) => {
           return (
             <CardEvent
@@ -67,6 +65,7 @@ export const HomeScreen = (props: HomeProps) => {
           textCallToAction: 'See all',
           onAction: moreData,
         }}
+        keyExtractor={item => item.id.toString()}
         renderItem={({item, index}) => {
           return (
             <CardEvent

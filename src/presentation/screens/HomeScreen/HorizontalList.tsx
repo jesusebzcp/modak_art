@@ -18,6 +18,7 @@ type HorizontalListProps<T> = {
     onAction(): void;
   };
   renderItem: ListRenderItem<T> | null | undefined;
+  keyExtractor: ((item: T, index: number) => string) | undefined;
   data: T[];
 };
 
@@ -27,6 +28,7 @@ export const HorizontalList: <
   headerProps,
   renderItem,
   data,
+  keyExtractor,
 }) => {
   const ListEmptyComponent = useMemo(() => {
     return (
@@ -51,6 +53,7 @@ export const HorizontalList: <
       </View>
       <Separator />
       <FlatList
+        keyExtractor={keyExtractor}
         showsHorizontalScrollIndicator={false}
         horizontal
         data={data}

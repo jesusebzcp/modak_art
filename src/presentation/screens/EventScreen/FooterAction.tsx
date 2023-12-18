@@ -1,10 +1,10 @@
-import {AppText} from '@pr/components';
-import {AppButton} from '@pr/components/AppButton';
-import {COLORS} from '@pr/theme';
-import {METRICS} from '@pr/theme/metrics';
 import React from 'react';
 import {StyleSheet, TouchableOpacity} from 'react-native';
 import * as Animatable from 'react-native-animatable';
+
+import {AppText, AppButton} from '@pr/components';
+import {COLORS} from '@pr/theme';
+import {METRICS} from '@pr/theme/metrics';
 
 type FooterActionProps = {
   saveEvent(): void;
