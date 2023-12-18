@@ -1,8 +1,29 @@
+Technical Exercise Documentation
+
+# Features:
+
+- Event Navigation ✅
+- Allows users to explore events from the Art Institute of Chicago API.
+- Home Screen ✅
+- Displays thumbnails and brief descriptions of events on the main screen of the application.
+- Event Detail ✅
+- Clicking on a thumbnail redirects the user to a detailed event screen.
+- The detailed screen showcases a higher quality image and provides additional information about - the artwork, the author, and other relevant data.
+- Favorite Event Saving ✅
+- Enables users to mark events as favorites.
+- Data Persistence ✅
+- Ensures the persistence of data, allowing users to access favorite events even after closing and reopening the application.
+- Animations and Additional Features ✅
+- Incorporates animated transitions and other cool features to demonstrate expertise in mobile development. ✅
+- User Calendar Integration (iOS Only) ✅
+
+# React native
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
