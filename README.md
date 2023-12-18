@@ -1,4 +1,4 @@
-Technical Exercise Documentation
+# Technical Exercise Documentation
 
 # Features:
 
