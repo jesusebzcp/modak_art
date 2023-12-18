@@ -1,0 +1,2125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* modak_artTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* modak_artTests.m */; };
+		05D694F5B65645FDABDBDAFA /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 033E20A72B1F4C0C9399EE5F /* Poppins-LightItalic.ttf */; };
+		0A52F9F606CF4DAD9806E063 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFB3CF13ACB44D1AF637C51 /* Poppins-BoldItalic.ttf */; };
+		0BD8ADD59F2645FFBDD31DB2 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A99ABE3CA82C41E4B51312C1 /* Poppins-SemiBoldItalic.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-modak_art.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-modak_art.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2062B03766B44176BAAE5942 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 032D6DAB2A3F488790ABD62F /* OFL.txt */; };
+		3946E708C7F441FC9333E9A0 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFC35393F69B4138A4CF15BE /* Poppins-BlackItalic.ttf */; };
+		69277DE5CA024C3B998EB690 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D21305A4ACC431EA1403593 /* Poppins-ExtraLightItalic.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-modak_art-modak_artTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-modak_art-modak_artTests.a */; };
+		779255A0736042AFBF91A214 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9037C3629231446186F9CC63 /* Poppins-ExtraBold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		855FD73CD0AD471E8D3880E6 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41851E2DB6734F06A22A40A5 /* Poppins-Regular.ttf */; };
+		8A77E2264F144ACCBBC2078B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB296C97530C44588F91918E /* Poppins-ThinItalic.ttf */; };
+		993CA45B775C4186841B482E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF5E859E65B748B1991F9BE1 /* Poppins-Bold.ttf */; };
+		99AF83C1A1DB474BB223ED99 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C92EC86D5164B9A90EBCD4C /* Poppins-Light.ttf */; };
+		9F186F90A03C4A8084944A26 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60F9A087BC324E0296099E4D /* Poppins-ExtraLight.ttf */; };
+		BCC9A72A7CD84F898F21E469 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81EF0AA3063847799B04CAA3 /* Poppins-ExtraBoldItalic.ttf */; };
+		D0563C470D264EEEA8A684CB /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA63DBBCF814431CA032C17A /* Poppins-Thin.ttf */; };
+		D69ECA5C67544C7698443F36 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5F1C341572145B3A50A8DDD /* Poppins-Italic.ttf */; };
+		D8CF6BE5E8F64787AFC18A6F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3552D12A6D9F4631BA7A0DA2 /* Poppins-Medium.ttf */; };
+		E0FE20CCE3D44A46A3E4747E /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6F582ADD98D40C7803C826F /* Poppins-Black.ttf */; };
+		E6976C56BECB40369968F047 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447910F5761E4F6A95570D1E /* Poppins-MediumItalic.ttf */; };
+		F188472BD94647E583FCA103 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE0276BB803E4FFE8B4F85BB /* Poppins-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = modak_art;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* modak_artTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modak_artTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* modak_artTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modak_artTests.m; sourceTree = "<group>"; };
+		032D6DAB2A3F488790ABD62F /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = ../src/application/assets/fonts/OFL.txt; sourceTree = "<group>"; };
+		033E20A72B1F4C0C9399EE5F /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/application/assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* modak_art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modak_art.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = modak_art/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = modak_art/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = modak_art/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = modak_art/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = modak_art/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-modak_art-modak_artTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-modak_art-modak_artTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3552D12A6D9F4631BA7A0DA2 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/application/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-modak_art.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modak_art.debug.xcconfig"; path = "Target Support Files/Pods-modak_art/Pods-modak_art.debug.xcconfig"; sourceTree = "<group>"; };
+		41851E2DB6734F06A22A40A5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/application/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		447910F5761E4F6A95570D1E /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/application/assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-modak_art.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modak_art.release.xcconfig"; path = "Target Support Files/Pods-modak_art/Pods-modak_art.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-modak_art-modak_artTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modak_art-modak_artTests.debug.xcconfig"; path = "Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-modak_art.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-modak_art.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F9A087BC324E0296099E4D /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/application/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = modak_art/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81EF0AA3063847799B04CAA3 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/application/assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-modak_art-modak_artTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modak_art-modak_artTests.release.xcconfig"; path = "Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests.release.xcconfig"; sourceTree = "<group>"; };
+		9037C3629231446186F9CC63 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/application/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9C92EC86D5164B9A90EBCD4C /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/application/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		9D21305A4ACC431EA1403593 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/application/assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A99ABE3CA82C41E4B51312C1 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/application/assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		ABF424352B2FD65E00B901DA /* RNAddCalendar.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RNAddCalendar.mm; sourceTree = "<group>"; };
+		ABF424362B2FD65E00B901DA /* RNAddCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAddCalendar.h; sourceTree = "<group>"; };
+		ABF424372B2FD65E00B901DA /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		ABF424392B2FD65E00B901DA /* local.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = local.properties; sourceTree = "<group>"; };
+		ABF4243C2B2FD65E00B901DA /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		ABF4243D2B2FD65E00B901DA /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+		ABF4243E2B2FD65E00B901DA /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gradlew; sourceTree = "<group>"; };
+		ABF4243F2B2FD65E00B901DA /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		ABF424412B2FD65E00B901DA /* file-system.probe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "file-system.probe"; sourceTree = "<group>"; };
+		ABF424432B2FD65E00B901DA /* gc.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = gc.properties; sourceTree = "<group>"; };
+		ABF424452B2FD65E00B901DA /* cache.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = cache.properties; sourceTree = "<group>"; };
+		ABF424462B2FD65E00B901DA /* outputFiles.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = outputFiles.bin; sourceTree = "<group>"; };
+		ABF424472B2FD65E00B901DA /* buildOutputCleanup.lock */ = {isa = PBXFileReference; lastKnownFileType = file; path = buildOutputCleanup.lock; sourceTree = "<group>"; };
+		ABF4244A2B2FD65E00B901DA /* executionHistory.lock */ = {isa = PBXFileReference; lastKnownFileType = file; path = executionHistory.lock; sourceTree = "<group>"; };
+		ABF4244B2B2FD65E00B901DA /* executionHistory.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = executionHistory.bin; sourceTree = "<group>"; };
+		ABF4244C2B2FD65E00B901DA /* gc.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = gc.properties; sourceTree = "<group>"; };
+		ABF4244E2B2FD65E00B901DA /* last-build.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "last-build.bin"; sourceTree = "<group>"; };
+		ABF424502B2FD65E00B901DA /* gc.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = gc.properties; sourceTree = "<group>"; };
+		ABF424512B2FD65E00B901DA /* dependencies-accessors.lock */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dependencies-accessors.lock"; sourceTree = "<group>"; };
+		ABF424532B2FD65E00B901DA /* checksums.lock */ = {isa = PBXFileReference; lastKnownFileType = file; path = checksums.lock; sourceTree = "<group>"; };
+		ABF424542B2FD65E00B901DA /* md5-checksums.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "md5-checksums.bin"; sourceTree = "<group>"; };
+		ABF424552B2FD65E00B901DA /* sha1-checksums.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "sha1-checksums.bin"; sourceTree = "<group>"; };
+		ABF424582B2FD65E00B901DA /* fileHashes.lock */ = {isa = PBXFileReference; lastKnownFileType = file; path = fileHashes.lock; sourceTree = "<group>"; };
+		ABF424592B2FD65E00B901DA /* fileHashes.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = fileHashes.bin; sourceTree = "<group>"; };
+		ABF4245A2B2FD65E00B901DA /* gradle.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradle.properties; sourceTree = "<group>"; };
+		ABF424672B2FD65F00B901DA /* BuildConfig.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = BuildConfig.java; sourceTree = "<group>"; };
+		ABF4246D2B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF424712B2FD65F00B901DA /* classes.dex */ = {isa = PBXFileReference; lastKnownFileType = file; path = classes.dex; sourceTree = "<group>"; };
+		ABF424742B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF424772B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF4247A2B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF4247D2B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF424802B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF424832B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF424862B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF4248C2B2FD65F00B901DA /* Utils.dex */ = {isa = PBXFileReference; lastKnownFileType = file; path = Utils.dex; sourceTree = "<group>"; };
+		ABF4248D2B2FD65F00B901DA /* RNAddCalendarModule.dex */ = {isa = PBXFileReference; lastKnownFileType = file; path = RNAddCalendarModule.dex; sourceTree = "<group>"; };
+		ABF4248E2B2FD65F00B901DA /* RNAddCalendarPackage.dex */ = {isa = PBXFileReference; lastKnownFileType = file; path = RNAddCalendarPackage.dex; sourceTree = "<group>"; };
+		ABF4248F2B2FD65F00B901DA /* BuildConfig.dex */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildConfig.dex; sourceTree = "<group>"; };
+		ABF424912B2FD65F00B901DA /* desugar_graph.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = desugar_graph.bin; sourceTree = "<group>"; };
+		ABF424932B2FD65F00B901DA /* results.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = results.bin; sourceTree = "<group>"; };
+		ABF424972B2FD65F00B901DA /* classes.dex */ = {isa = PBXFileReference; lastKnownFileType = file; path = classes.dex; sourceTree = "<group>"; };
+		ABF4249E2B2FD65F00B901DA /* RNAddCalendarModule.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = RNAddCalendarModule.class; sourceTree = "<group>"; };
+		ABF4249F2B2FD65F00B901DA /* BuildConfig.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = BuildConfig.class; sourceTree = "<group>"; };
+		ABF424A02B2FD65F00B901DA /* Utils.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Utils.class; sourceTree = "<group>"; };
+		ABF424A12B2FD65F00B901DA /* RNAddCalendarPackage.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = RNAddCalendarPackage.class; sourceTree = "<group>"; };
+		ABF424A72B2FD65F00B901DA /* package-aware-r.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "package-aware-r.txt"; sourceTree = "<group>"; };
+		ABF424AF2B2FD65F00B901DA /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		ABF424B22B2FD65F00B901DA /* annotationProcessors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = annotationProcessors.json; sourceTree = "<group>"; };
+		ABF424B52B2FD65F00B901DA /* merger.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = merger.xml; sourceTree = "<group>"; };
+		ABF424B72B2FD65F00B901DA /* merger.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = merger.xml; sourceTree = "<group>"; };
+		ABF424B92B2FD65F00B901DA /* merger.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = merger.xml; sourceTree = "<group>"; };
+		ABF424BC2B2FD65F00B901DA /* compile-file-map.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "compile-file-map.properties"; sourceTree = "<group>"; };
+		ABF424BF2B2FD65F00B901DA /* merger.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = merger.xml; sourceTree = "<group>"; };
+		ABF424C52B2FD65F00B901DA /* R-def.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "R-def.txt"; sourceTree = "<group>"; };
+		ABF424C92B2FD65F00B901DA /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		ABF424CA2B2FD65F00B901DA /* output-metadata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "output-metadata.json"; sourceTree = "<group>"; };
+		ABF424CD2B2FD65F00B901DA /* classes.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = classes.jar; sourceTree = "<group>"; };
+		ABF424D02B2FD65F00B901DA /* navigation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = navigation.json; sourceTree = "<group>"; };
+		ABF424D32B2FD65F00B901DA /* R.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = R.jar; sourceTree = "<group>"; };
+		ABF424D92B2FD65F00B901DA /* R.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = R.txt; sourceTree = "<group>"; };
+		ABF424DF2B2FD65F00B901DA /* RNAddCalendarModule.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = RNAddCalendarModule.class; sourceTree = "<group>"; };
+		ABF424E02B2FD65F00B901DA /* BuildConfig.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = BuildConfig.class; sourceTree = "<group>"; };
+		ABF424E12B2FD65F00B901DA /* Utils.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Utils.class; sourceTree = "<group>"; };
+		ABF424E22B2FD65F00B901DA /* RNAddCalendarPackage.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = RNAddCalendarPackage.class; sourceTree = "<group>"; };
+		ABF424E52B2FD65F00B901DA /* manifest-merger-blame-debug-report.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "manifest-merger-blame-debug-report.txt"; sourceTree = "<group>"; };
+		ABF424EB2B2FD65F00B901DA /* aar-metadata.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "aar-metadata.properties"; sourceTree = "<group>"; };
+		ABF424F12B2FD65F00B901DA /* classes.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = classes.jar; sourceTree = "<group>"; };
+		ABF424F82B2FD65F00B901DA /* RNAddCalendarModule.class.uniqueId0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RNAddCalendarModule.class.uniqueId0; sourceTree = "<group>"; };
+		ABF424F92B2FD65F00B901DA /* Utils.class.uniqueId1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Utils.class.uniqueId1; sourceTree = "<group>"; };
+		ABF424FE2B2FD65F00B901DA /* previous-compilation-data.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "previous-compilation-data.bin"; sourceTree = "<group>"; };
+		ABF425012B2FD65F00B901DA /* manifest-merger-debug-report.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "manifest-merger-debug-report.txt"; sourceTree = "<group>"; };
+		ABF425022B2FD65F00B901DA /* gradlew.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew.bat; sourceTree = "<group>"; };
+		ABF425042B2FD65F00B901DA /* jarRepositories.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = jarRepositories.xml; sourceTree = "<group>"; };
+		ABF425052B2FD65F00B901DA /* gradle.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = gradle.xml; sourceTree = "<group>"; };
+		ABF425062B2FD65F00B901DA /* vcs.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = vcs.xml; sourceTree = "<group>"; };
+		ABF425072B2FD65F00B901DA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ABF425082B2FD65F00B901DA /* workspace.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = workspace.xml; sourceTree = "<group>"; };
+		ABF425092B2FD65F00B901DA /* misc.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = misc.xml; sourceTree = "<group>"; };
+		ABF4250A2B2FD65F00B901DA /* compiler.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = compiler.xml; sourceTree = "<group>"; };
+		ABF4250D2B2FD65F00B901DA /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		ABF425112B2FD65F00B901DA /* Utils.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Utils.java; sourceTree = "<group>"; };
+		ABF425122B2FD65F00B901DA /* RNAddCalendarModule.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = RNAddCalendarModule.java; sourceTree = "<group>"; };
+		ABF425132B2FD65F00B901DA /* RNAddCalendarPackage.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = RNAddCalendarPackage.java; sourceTree = "<group>"; };
+		ABF425142B2FD65F00B901DA /* AndroidManifestNew.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifestNew.xml; sourceTree = "<group>"; };
+		ABF425152B2FD65F00B901DA /* jebzcpcalendar.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = jebzcpcalendar.podspec; sourceTree = "<group>"; };
+		ABF425172B2FD65F00B901DA /* vcs.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = vcs.xml; sourceTree = "<group>"; };
+		ABF425182B2FD65F00B901DA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ABF425192B2FD65F00B901DA /* workspace.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = workspace.xml; sourceTree = "<group>"; };
+		ABF4251A2B2FD65F00B901DA /* modules.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = modules.xml; sourceTree = "<group>"; };
+		ABF4251B2B2FD65F00B901DA /* RNAddCalendar.iml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RNAddCalendar.iml; sourceTree = "<group>"; };
+		ABF4251D2B2FD65F00B901DA /* index.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = index.tsx; sourceTree = "<group>"; };
+		ABF4251F2B2FD80A00B901DA /* EKEventStoreSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKEventStoreSingleton.m; sourceTree = "<group>"; };
+		ABF425202B2FD84000B901DA /* EKEventStoreSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKEventStoreSingleton.h; sourceTree = "<group>"; };
+		AF5E859E65B748B1991F9BE1 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/application/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D5F1C341572145B3A50A8DDD /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../src/application/assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		DB296C97530C44588F91918E /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/application/assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DE0276BB803E4FFE8B4F85BB /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/application/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		ECFB3CF13ACB44D1AF637C51 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/application/assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EFC35393F69B4138A4CF15BE /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/application/assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F6F582ADD98D40C7803C826F /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/application/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FA63DBBCF814431CA032C17A /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/application/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-modak_art-modak_artTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-modak_art.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* modak_artTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* modak_artTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = modak_artTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* modak_art */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = modak_art;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-modak_art.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-modak_art-modak_artTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		479B2F70BAB1497080299644 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6F582ADD98D40C7803C826F /* Poppins-Black.ttf */,
+				EFC35393F69B4138A4CF15BE /* Poppins-BlackItalic.ttf */,
+				AF5E859E65B748B1991F9BE1 /* Poppins-Bold.ttf */,
+				ECFB3CF13ACB44D1AF637C51 /* Poppins-BoldItalic.ttf */,
+				9037C3629231446186F9CC63 /* Poppins-ExtraBold.ttf */,
+				81EF0AA3063847799B04CAA3 /* Poppins-ExtraBoldItalic.ttf */,
+				60F9A087BC324E0296099E4D /* Poppins-ExtraLight.ttf */,
+				9D21305A4ACC431EA1403593 /* Poppins-ExtraLightItalic.ttf */,
+				D5F1C341572145B3A50A8DDD /* Poppins-Italic.ttf */,
+				9C92EC86D5164B9A90EBCD4C /* Poppins-Light.ttf */,
+				033E20A72B1F4C0C9399EE5F /* Poppins-LightItalic.ttf */,
+				3552D12A6D9F4631BA7A0DA2 /* Poppins-Medium.ttf */,
+				447910F5761E4F6A95570D1E /* Poppins-MediumItalic.ttf */,
+				41851E2DB6734F06A22A40A5 /* Poppins-Regular.ttf */,
+				DE0276BB803E4FFE8B4F85BB /* Poppins-SemiBold.ttf */,
+				A99ABE3CA82C41E4B51312C1 /* Poppins-SemiBoldItalic.ttf */,
+				FA63DBBCF814431CA032C17A /* Poppins-Thin.ttf */,
+				DB296C97530C44588F91918E /* Poppins-ThinItalic.ttf */,
+				032D6DAB2A3F488790ABD62F /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				ABF424322B2FD65E00B901DA /* modules */,
+				13B07FAE1A68108700A75B9A /* modak_art */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* modak_artTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				479B2F70BAB1497080299644 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* modak_art.app */,
+				00E356EE1AD99517003FC87E /* modak_artTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF424322B2FD65E00B901DA /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424332B2FD65E00B901DA /* RNAddCalendar */,
+			);
+			name = modules;
+			path = ../modules;
+			sourceTree = "<group>";
+		};
+		ABF424332B2FD65E00B901DA /* RNAddCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424342B2FD65E00B901DA /* ios */,
+				ABF424372B2FD65E00B901DA /* package.json */,
+				ABF424382B2FD65E00B901DA /* android */,
+				ABF425152B2FD65F00B901DA /* jebzcpcalendar.podspec */,
+				ABF425162B2FD65F00B901DA /* .idea */,
+				ABF4251C2B2FD65F00B901DA /* src */,
+			);
+			path = RNAddCalendar;
+			sourceTree = "<group>";
+		};
+		ABF424342B2FD65E00B901DA /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424352B2FD65E00B901DA /* RNAddCalendar.mm */,
+				ABF424362B2FD65E00B901DA /* RNAddCalendar.h */,
+				ABF4251F2B2FD80A00B901DA /* EKEventStoreSingleton.m */,
+				ABF425202B2FD84000B901DA /* EKEventStoreSingleton.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		ABF424382B2FD65E00B901DA /* android */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424392B2FD65E00B901DA /* local.properties */,
+				ABF4243A2B2FD65E00B901DA /* gradle */,
+				ABF4243E2B2FD65E00B901DA /* gradlew */,
+				ABF4243F2B2FD65E00B901DA /* build.gradle */,
+				ABF424402B2FD65E00B901DA /* .gradle */,
+				ABF4245A2B2FD65E00B901DA /* gradle.properties */,
+				ABF4245B2B2FD65E00B901DA /* build */,
+				ABF425022B2FD65F00B901DA /* gradlew.bat */,
+				ABF425032B2FD65F00B901DA /* .idea */,
+				ABF4250B2B2FD65F00B901DA /* src */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		ABF4243A2B2FD65E00B901DA /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4243B2B2FD65E00B901DA /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		ABF4243B2B2FD65E00B901DA /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4243C2B2FD65E00B901DA /* gradle-wrapper.jar */,
+				ABF4243D2B2FD65E00B901DA /* gradle-wrapper.properties */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		ABF424402B2FD65E00B901DA /* .gradle */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424412B2FD65E00B901DA /* file-system.probe */,
+				ABF424422B2FD65E00B901DA /* vcs-1 */,
+				ABF424442B2FD65E00B901DA /* buildOutputCleanup */,
+				ABF424482B2FD65E00B901DA /* 7.5.1 */,
+			);
+			path = .gradle;
+			sourceTree = "<group>";
+		};
+		ABF424422B2FD65E00B901DA /* vcs-1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424432B2FD65E00B901DA /* gc.properties */,
+			);
+			path = "vcs-1";
+			sourceTree = "<group>";
+		};
+		ABF424442B2FD65E00B901DA /* buildOutputCleanup */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424452B2FD65E00B901DA /* cache.properties */,
+				ABF424462B2FD65E00B901DA /* outputFiles.bin */,
+				ABF424472B2FD65E00B901DA /* buildOutputCleanup.lock */,
+			);
+			path = buildOutputCleanup;
+			sourceTree = "<group>";
+		};
+		ABF424482B2FD65E00B901DA /* 7.5.1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424492B2FD65E00B901DA /* executionHistory */,
+				ABF4244C2B2FD65E00B901DA /* gc.properties */,
+				ABF4244D2B2FD65E00B901DA /* fileChanges */,
+				ABF4244F2B2FD65E00B901DA /* dependencies-accessors */,
+				ABF424522B2FD65E00B901DA /* checksums */,
+				ABF424562B2FD65E00B901DA /* vcsMetadata */,
+				ABF424572B2FD65E00B901DA /* fileHashes */,
+			);
+			path = 7.5.1;
+			sourceTree = "<group>";
+		};
+		ABF424492B2FD65E00B901DA /* executionHistory */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4244A2B2FD65E00B901DA /* executionHistory.lock */,
+				ABF4244B2B2FD65E00B901DA /* executionHistory.bin */,
+			);
+			path = executionHistory;
+			sourceTree = "<group>";
+		};
+		ABF4244D2B2FD65E00B901DA /* fileChanges */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4244E2B2FD65E00B901DA /* last-build.bin */,
+			);
+			path = fileChanges;
+			sourceTree = "<group>";
+		};
+		ABF4244F2B2FD65E00B901DA /* dependencies-accessors */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424502B2FD65E00B901DA /* gc.properties */,
+				ABF424512B2FD65E00B901DA /* dependencies-accessors.lock */,
+			);
+			path = "dependencies-accessors";
+			sourceTree = "<group>";
+		};
+		ABF424522B2FD65E00B901DA /* checksums */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424532B2FD65E00B901DA /* checksums.lock */,
+				ABF424542B2FD65E00B901DA /* md5-checksums.bin */,
+				ABF424552B2FD65E00B901DA /* sha1-checksums.bin */,
+			);
+			path = checksums;
+			sourceTree = "<group>";
+		};
+		ABF424562B2FD65E00B901DA /* vcsMetadata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vcsMetadata;
+			sourceTree = "<group>";
+		};
+		ABF424572B2FD65E00B901DA /* fileHashes */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424582B2FD65E00B901DA /* fileHashes.lock */,
+				ABF424592B2FD65E00B901DA /* fileHashes.bin */,
+			);
+			path = fileHashes;
+			sourceTree = "<group>";
+		};
+		ABF4245B2B2FD65E00B901DA /* build */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4245C2B2FD65F00B901DA /* generated */,
+				ABF4246B2B2FD65F00B901DA /* .transforms */,
+				ABF424992B2FD65F00B901DA /* intermediates */,
+				ABF424F42B2FD65F00B901DA /* tmp */,
+				ABF424FF2B2FD65F00B901DA /* outputs */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		ABF4245C2B2FD65F00B901DA /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4245D2B2FD65F00B901DA /* res */,
+				ABF424622B2FD65F00B901DA /* source */,
+				ABF424682B2FD65F00B901DA /* ap_generated_sources */,
+			);
+			path = generated;
+			sourceTree = "<group>";
+		};
+		ABF4245D2B2FD65F00B901DA /* res */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4245E2B2FD65F00B901DA /* pngs */,
+				ABF424602B2FD65F00B901DA /* resValues */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		ABF4245E2B2FD65F00B901DA /* pngs */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4245F2B2FD65F00B901DA /* debug */,
+			);
+			path = pngs;
+			sourceTree = "<group>";
+		};
+		ABF4245F2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424602B2FD65F00B901DA /* resValues */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424612B2FD65F00B901DA /* debug */,
+			);
+			path = resValues;
+			sourceTree = "<group>";
+		};
+		ABF424612B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424622B2FD65F00B901DA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424632B2FD65F00B901DA /* buildConfig */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		ABF424632B2FD65F00B901DA /* buildConfig */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424642B2FD65F00B901DA /* debug */,
+			);
+			path = buildConfig;
+			sourceTree = "<group>";
+		};
+		ABF424642B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424652B2FD65F00B901DA /* com */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424652B2FD65F00B901DA /* com */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424662B2FD65F00B901DA /* jebzcpcalendar */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		ABF424662B2FD65F00B901DA /* jebzcpcalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424672B2FD65F00B901DA /* BuildConfig.java */,
+			);
+			path = jebzcpcalendar;
+			sourceTree = "<group>";
+		};
+		ABF424682B2FD65F00B901DA /* ap_generated_sources */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424692B2FD65F00B901DA /* debug */,
+			);
+			path = ap_generated_sources;
+			sourceTree = "<group>";
+		};
+		ABF424692B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4246A2B2FD65F00B901DA /* out */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF4246A2B2FD65F00B901DA /* out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = out;
+			sourceTree = "<group>";
+		};
+		ABF4246B2B2FD65F00B901DA /* .transforms */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4246C2B2FD65F00B901DA /* 0796339beb702847dcff35c2c52f889c */,
+				ABF424732B2FD65F00B901DA /* 7bcb5f78ae67cce73c2b921f3c98df32 */,
+				ABF424762B2FD65F00B901DA /* 47b2f821e70b57f75fbdf843966cdf23 */,
+				ABF424792B2FD65F00B901DA /* 3b97fcfa58bdc49b2f1e7f5472fae9dd */,
+				ABF4247C2B2FD65F00B901DA /* 7789e857ec3b2a99bc45444b47176125 */,
+				ABF4247F2B2FD65F00B901DA /* 544349012c488a754057890a7d37d721 */,
+				ABF424822B2FD65F00B901DA /* beba635a67c7c8496cef678e7f730976 */,
+				ABF424852B2FD65F00B901DA /* c5dee11809fdfc3b14b6e5a494b0c052 */,
+				ABF424922B2FD65F00B901DA /* 8d9a68575039b72936c853cc75be2a15 */,
+			);
+			path = .transforms;
+			sourceTree = "<group>";
+		};
+		ABF4246C2B2FD65F00B901DA /* 0796339beb702847dcff35c2c52f889c */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4246D2B2FD65F00B901DA /* results.bin */,
+				ABF4246E2B2FD65F00B901DA /* transformed */,
+			);
+			path = 0796339beb702847dcff35c2c52f889c;
+			sourceTree = "<group>";
+		};
+		ABF4246E2B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4246F2B2FD65F00B901DA /* classes */,
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF4246F2B2FD65F00B901DA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424702B2FD65F00B901DA /* classes_dex */,
+				ABF424722B2FD65F00B901DA /* classes_global-synthetics */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		ABF424702B2FD65F00B901DA /* classes_dex */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424712B2FD65F00B901DA /* classes.dex */,
+			);
+			path = classes_dex;
+			sourceTree = "<group>";
+		};
+		ABF424722B2FD65F00B901DA /* classes_global-synthetics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "classes_global-synthetics";
+			sourceTree = "<group>";
+		};
+		ABF424732B2FD65F00B901DA /* 7bcb5f78ae67cce73c2b921f3c98df32 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424742B2FD65F00B901DA /* results.bin */,
+				ABF424752B2FD65F00B901DA /* transformed */,
+			);
+			path = 7bcb5f78ae67cce73c2b921f3c98df32;
+			sourceTree = "<group>";
+		};
+		ABF424752B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF424762B2FD65F00B901DA /* 47b2f821e70b57f75fbdf843966cdf23 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424772B2FD65F00B901DA /* results.bin */,
+				ABF424782B2FD65F00B901DA /* transformed */,
+			);
+			path = 47b2f821e70b57f75fbdf843966cdf23;
+			sourceTree = "<group>";
+		};
+		ABF424782B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF424792B2FD65F00B901DA /* 3b97fcfa58bdc49b2f1e7f5472fae9dd */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4247A2B2FD65F00B901DA /* results.bin */,
+				ABF4247B2B2FD65F00B901DA /* transformed */,
+			);
+			path = 3b97fcfa58bdc49b2f1e7f5472fae9dd;
+			sourceTree = "<group>";
+		};
+		ABF4247B2B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF4247C2B2FD65F00B901DA /* 7789e857ec3b2a99bc45444b47176125 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4247D2B2FD65F00B901DA /* results.bin */,
+				ABF4247E2B2FD65F00B901DA /* transformed */,
+			);
+			path = 7789e857ec3b2a99bc45444b47176125;
+			sourceTree = "<group>";
+		};
+		ABF4247E2B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF4247F2B2FD65F00B901DA /* 544349012c488a754057890a7d37d721 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424802B2FD65F00B901DA /* results.bin */,
+				ABF424812B2FD65F00B901DA /* transformed */,
+			);
+			path = 544349012c488a754057890a7d37d721;
+			sourceTree = "<group>";
+		};
+		ABF424812B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF424822B2FD65F00B901DA /* beba635a67c7c8496cef678e7f730976 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424832B2FD65F00B901DA /* results.bin */,
+				ABF424842B2FD65F00B901DA /* transformed */,
+			);
+			path = beba635a67c7c8496cef678e7f730976;
+			sourceTree = "<group>";
+		};
+		ABF424842B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF424852B2FD65F00B901DA /* c5dee11809fdfc3b14b6e5a494b0c052 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424862B2FD65F00B901DA /* results.bin */,
+				ABF424872B2FD65F00B901DA /* transformed */,
+			);
+			path = c5dee11809fdfc3b14b6e5a494b0c052;
+			sourceTree = "<group>";
+		};
+		ABF424872B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424882B2FD65F00B901DA /* debug */,
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF424882B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424892B2FD65F00B901DA /* debug_dex */,
+				ABF424902B2FD65F00B901DA /* debug_global-synthetics */,
+				ABF424912B2FD65F00B901DA /* desugar_graph.bin */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424892B2FD65F00B901DA /* debug_dex */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4248A2B2FD65F00B901DA /* com */,
+			);
+			path = debug_dex;
+			sourceTree = "<group>";
+		};
+		ABF4248A2B2FD65F00B901DA /* com */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4248B2B2FD65F00B901DA /* jebzcpcalendar */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		ABF4248B2B2FD65F00B901DA /* jebzcpcalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4248C2B2FD65F00B901DA /* Utils.dex */,
+				ABF4248D2B2FD65F00B901DA /* RNAddCalendarModule.dex */,
+				ABF4248E2B2FD65F00B901DA /* RNAddCalendarPackage.dex */,
+				ABF4248F2B2FD65F00B901DA /* BuildConfig.dex */,
+			);
+			path = jebzcpcalendar;
+			sourceTree = "<group>";
+		};
+		ABF424902B2FD65F00B901DA /* debug_global-synthetics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "debug_global-synthetics";
+			sourceTree = "<group>";
+		};
+		ABF424922B2FD65F00B901DA /* 8d9a68575039b72936c853cc75be2a15 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424932B2FD65F00B901DA /* results.bin */,
+				ABF424942B2FD65F00B901DA /* transformed */,
+			);
+			path = 8d9a68575039b72936c853cc75be2a15;
+			sourceTree = "<group>";
+		};
+		ABF424942B2FD65F00B901DA /* transformed */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424952B2FD65F00B901DA /* classes */,
+			);
+			path = transformed;
+			sourceTree = "<group>";
+		};
+		ABF424952B2FD65F00B901DA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424962B2FD65F00B901DA /* classes_dex */,
+				ABF424982B2FD65F00B901DA /* classes_global-synthetics */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		ABF424962B2FD65F00B901DA /* classes_dex */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424972B2FD65F00B901DA /* classes.dex */,
+			);
+			path = classes_dex;
+			sourceTree = "<group>";
+		};
+		ABF424982B2FD65F00B901DA /* classes_global-synthetics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "classes_global-synthetics";
+			sourceTree = "<group>";
+		};
+		ABF424992B2FD65F00B901DA /* intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4249A2B2FD65F00B901DA /* runtime_library_classes_dir */,
+				ABF424A22B2FD65F00B901DA /* library_jni */,
+				ABF424A52B2FD65F00B901DA /* symbol_list_with_package_name */,
+				ABF424A82B2FD65F00B901DA /* packaged_res */,
+				ABF424AA2B2FD65F00B901DA /* library_assets */,
+				ABF424AD2B2FD65F00B901DA /* merged_manifest */,
+				ABF424B02B2FD65F00B901DA /* annotation_processor_list */,
+				ABF424B32B2FD65F00B901DA /* incremental */,
+				ABF424C02B2FD65F00B901DA /* compiled_local_resources */,
+				ABF424C32B2FD65F00B901DA /* local_only_symbol_list */,
+				ABF424C62B2FD65F00B901DA /* aapt_friendly_merged_manifests */,
+				ABF424CB2B2FD65F00B901DA /* compile_library_classes_jar */,
+				ABF424CE2B2FD65F00B901DA /* navigation_json */,
+				ABF424D12B2FD65F00B901DA /* compile_r_class_jar */,
+				ABF424D42B2FD65F00B901DA /* data_binding_layout_info_type_package */,
+				ABF424D72B2FD65F00B901DA /* compile_symbol_list */,
+				ABF424DA2B2FD65F00B901DA /* javac */,
+				ABF424E32B2FD65F00B901DA /* manifest_merge_blame_file */,
+				ABF424E62B2FD65F00B901DA /* merged_jni_libs */,
+				ABF424E92B2FD65F00B901DA /* aar_metadata */,
+				ABF424EC2B2FD65F00B901DA /* merged_shaders */,
+				ABF424EF2B2FD65F00B901DA /* runtime_library_classes_jar */,
+				ABF424F22B2FD65F00B901DA /* public_res */,
+			);
+			path = intermediates;
+			sourceTree = "<group>";
+		};
+		ABF4249A2B2FD65F00B901DA /* runtime_library_classes_dir */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4249B2B2FD65F00B901DA /* debug */,
+			);
+			path = runtime_library_classes_dir;
+			sourceTree = "<group>";
+		};
+		ABF4249B2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4249C2B2FD65F00B901DA /* com */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF4249C2B2FD65F00B901DA /* com */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4249D2B2FD65F00B901DA /* jebzcpcalendar */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		ABF4249D2B2FD65F00B901DA /* jebzcpcalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4249E2B2FD65F00B901DA /* RNAddCalendarModule.class */,
+				ABF4249F2B2FD65F00B901DA /* BuildConfig.class */,
+				ABF424A02B2FD65F00B901DA /* Utils.class */,
+				ABF424A12B2FD65F00B901DA /* RNAddCalendarPackage.class */,
+			);
+			path = jebzcpcalendar;
+			sourceTree = "<group>";
+		};
+		ABF424A22B2FD65F00B901DA /* library_jni */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424A32B2FD65F00B901DA /* debug */,
+			);
+			path = library_jni;
+			sourceTree = "<group>";
+		};
+		ABF424A32B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424A42B2FD65F00B901DA /* jni */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424A42B2FD65F00B901DA /* jni */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		ABF424A52B2FD65F00B901DA /* symbol_list_with_package_name */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424A62B2FD65F00B901DA /* debug */,
+			);
+			path = symbol_list_with_package_name;
+			sourceTree = "<group>";
+		};
+		ABF424A62B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424A72B2FD65F00B901DA /* package-aware-r.txt */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424A82B2FD65F00B901DA /* packaged_res */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424A92B2FD65F00B901DA /* debug */,
+			);
+			path = packaged_res;
+			sourceTree = "<group>";
+		};
+		ABF424A92B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424AA2B2FD65F00B901DA /* library_assets */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424AB2B2FD65F00B901DA /* debug */,
+			);
+			path = library_assets;
+			sourceTree = "<group>";
+		};
+		ABF424AB2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424AC2B2FD65F00B901DA /* out */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424AC2B2FD65F00B901DA /* out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = out;
+			sourceTree = "<group>";
+		};
+		ABF424AD2B2FD65F00B901DA /* merged_manifest */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424AE2B2FD65F00B901DA /* debug */,
+			);
+			path = merged_manifest;
+			sourceTree = "<group>";
+		};
+		ABF424AE2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424AF2B2FD65F00B901DA /* AndroidManifest.xml */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424B02B2FD65F00B901DA /* annotation_processor_list */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424B12B2FD65F00B901DA /* debug */,
+			);
+			path = annotation_processor_list;
+			sourceTree = "<group>";
+		};
+		ABF424B12B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424B22B2FD65F00B901DA /* annotationProcessors.json */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424B32B2FD65F00B901DA /* incremental */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424B42B2FD65F00B901DA /* packageDebugAssets */,
+				ABF424B62B2FD65F00B901DA /* mergeDebugJniLibFolders */,
+				ABF424B82B2FD65F00B901DA /* mergeDebugShaders */,
+				ABF424BA2B2FD65F00B901DA /* debug */,
+			);
+			path = incremental;
+			sourceTree = "<group>";
+		};
+		ABF424B42B2FD65F00B901DA /* packageDebugAssets */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424B52B2FD65F00B901DA /* merger.xml */,
+			);
+			path = packageDebugAssets;
+			sourceTree = "<group>";
+		};
+		ABF424B62B2FD65F00B901DA /* mergeDebugJniLibFolders */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424B72B2FD65F00B901DA /* merger.xml */,
+			);
+			path = mergeDebugJniLibFolders;
+			sourceTree = "<group>";
+		};
+		ABF424B82B2FD65F00B901DA /* mergeDebugShaders */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424B92B2FD65F00B901DA /* merger.xml */,
+			);
+			path = mergeDebugShaders;
+			sourceTree = "<group>";
+		};
+		ABF424BA2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424BB2B2FD65F00B901DA /* packageDebugResources */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424BB2B2FD65F00B901DA /* packageDebugResources */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424BC2B2FD65F00B901DA /* compile-file-map.properties */,
+				ABF424BD2B2FD65F00B901DA /* merged.dir */,
+				ABF424BE2B2FD65F00B901DA /* stripped.dir */,
+				ABF424BF2B2FD65F00B901DA /* merger.xml */,
+			);
+			path = packageDebugResources;
+			sourceTree = "<group>";
+		};
+		ABF424BD2B2FD65F00B901DA /* merged.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = merged.dir;
+			sourceTree = "<group>";
+		};
+		ABF424BE2B2FD65F00B901DA /* stripped.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = stripped.dir;
+			sourceTree = "<group>";
+		};
+		ABF424C02B2FD65F00B901DA /* compiled_local_resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424C12B2FD65F00B901DA /* debug */,
+			);
+			path = compiled_local_resources;
+			sourceTree = "<group>";
+		};
+		ABF424C12B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424C22B2FD65F00B901DA /* out */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424C22B2FD65F00B901DA /* out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = out;
+			sourceTree = "<group>";
+		};
+		ABF424C32B2FD65F00B901DA /* local_only_symbol_list */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424C42B2FD65F00B901DA /* debug */,
+			);
+			path = local_only_symbol_list;
+			sourceTree = "<group>";
+		};
+		ABF424C42B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424C52B2FD65F00B901DA /* R-def.txt */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424C62B2FD65F00B901DA /* aapt_friendly_merged_manifests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424C72B2FD65F00B901DA /* debug */,
+			);
+			path = aapt_friendly_merged_manifests;
+			sourceTree = "<group>";
+		};
+		ABF424C72B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424C82B2FD65F00B901DA /* aapt */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424C82B2FD65F00B901DA /* aapt */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424C92B2FD65F00B901DA /* AndroidManifest.xml */,
+				ABF424CA2B2FD65F00B901DA /* output-metadata.json */,
+			);
+			path = aapt;
+			sourceTree = "<group>";
+		};
+		ABF424CB2B2FD65F00B901DA /* compile_library_classes_jar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424CC2B2FD65F00B901DA /* debug */,
+			);
+			path = compile_library_classes_jar;
+			sourceTree = "<group>";
+		};
+		ABF424CC2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424CD2B2FD65F00B901DA /* classes.jar */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424CE2B2FD65F00B901DA /* navigation_json */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424CF2B2FD65F00B901DA /* debug */,
+			);
+			path = navigation_json;
+			sourceTree = "<group>";
+		};
+		ABF424CF2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424D02B2FD65F00B901DA /* navigation.json */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424D12B2FD65F00B901DA /* compile_r_class_jar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424D22B2FD65F00B901DA /* debug */,
+			);
+			path = compile_r_class_jar;
+			sourceTree = "<group>";
+		};
+		ABF424D22B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424D32B2FD65F00B901DA /* R.jar */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424D42B2FD65F00B901DA /* data_binding_layout_info_type_package */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424D52B2FD65F00B901DA /* debug */,
+			);
+			path = data_binding_layout_info_type_package;
+			sourceTree = "<group>";
+		};
+		ABF424D52B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424D62B2FD65F00B901DA /* out */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424D62B2FD65F00B901DA /* out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = out;
+			sourceTree = "<group>";
+		};
+		ABF424D72B2FD65F00B901DA /* compile_symbol_list */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424D82B2FD65F00B901DA /* debug */,
+			);
+			path = compile_symbol_list;
+			sourceTree = "<group>";
+		};
+		ABF424D82B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424D92B2FD65F00B901DA /* R.txt */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424DA2B2FD65F00B901DA /* javac */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424DB2B2FD65F00B901DA /* debug */,
+			);
+			path = javac;
+			sourceTree = "<group>";
+		};
+		ABF424DB2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424DC2B2FD65F00B901DA /* classes */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424DC2B2FD65F00B901DA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424DD2B2FD65F00B901DA /* com */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		ABF424DD2B2FD65F00B901DA /* com */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424DE2B2FD65F00B901DA /* jebzcpcalendar */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		ABF424DE2B2FD65F00B901DA /* jebzcpcalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424DF2B2FD65F00B901DA /* RNAddCalendarModule.class */,
+				ABF424E02B2FD65F00B901DA /* BuildConfig.class */,
+				ABF424E12B2FD65F00B901DA /* Utils.class */,
+				ABF424E22B2FD65F00B901DA /* RNAddCalendarPackage.class */,
+			);
+			path = jebzcpcalendar;
+			sourceTree = "<group>";
+		};
+		ABF424E32B2FD65F00B901DA /* manifest_merge_blame_file */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424E42B2FD65F00B901DA /* debug */,
+			);
+			path = manifest_merge_blame_file;
+			sourceTree = "<group>";
+		};
+		ABF424E42B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424E52B2FD65F00B901DA /* manifest-merger-blame-debug-report.txt */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424E62B2FD65F00B901DA /* merged_jni_libs */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424E72B2FD65F00B901DA /* debug */,
+			);
+			path = merged_jni_libs;
+			sourceTree = "<group>";
+		};
+		ABF424E72B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424E82B2FD65F00B901DA /* out */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424E82B2FD65F00B901DA /* out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = out;
+			sourceTree = "<group>";
+		};
+		ABF424E92B2FD65F00B901DA /* aar_metadata */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424EA2B2FD65F00B901DA /* debug */,
+			);
+			path = aar_metadata;
+			sourceTree = "<group>";
+		};
+		ABF424EA2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424EB2B2FD65F00B901DA /* aar-metadata.properties */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424EC2B2FD65F00B901DA /* merged_shaders */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424ED2B2FD65F00B901DA /* debug */,
+			);
+			path = merged_shaders;
+			sourceTree = "<group>";
+		};
+		ABF424ED2B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424EE2B2FD65F00B901DA /* out */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424EE2B2FD65F00B901DA /* out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = out;
+			sourceTree = "<group>";
+		};
+		ABF424EF2B2FD65F00B901DA /* runtime_library_classes_jar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424F02B2FD65F00B901DA /* debug */,
+			);
+			path = runtime_library_classes_jar;
+			sourceTree = "<group>";
+		};
+		ABF424F02B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424F12B2FD65F00B901DA /* classes.jar */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424F22B2FD65F00B901DA /* public_res */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424F32B2FD65F00B901DA /* debug */,
+			);
+			path = public_res;
+			sourceTree = "<group>";
+		};
+		ABF424F32B2FD65F00B901DA /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		ABF424F42B2FD65F00B901DA /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424F52B2FD65F00B901DA /* compileDebugJavaWithJavac */,
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		ABF424F52B2FD65F00B901DA /* compileDebugJavaWithJavac */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424F62B2FD65F00B901DA /* compileTransaction */,
+				ABF424FE2B2FD65F00B901DA /* previous-compilation-data.bin */,
+			);
+			path = compileDebugJavaWithJavac;
+			sourceTree = "<group>";
+		};
+		ABF424F62B2FD65F00B901DA /* compileTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424F72B2FD65F00B901DA /* stash-dir */,
+				ABF424FA2B2FD65F00B901DA /* annotation-output */,
+				ABF424FB2B2FD65F00B901DA /* compile-output */,
+			);
+			path = compileTransaction;
+			sourceTree = "<group>";
+		};
+		ABF424F72B2FD65F00B901DA /* stash-dir */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424F82B2FD65F00B901DA /* RNAddCalendarModule.class.uniqueId0 */,
+				ABF424F92B2FD65F00B901DA /* Utils.class.uniqueId1 */,
+			);
+			path = "stash-dir";
+			sourceTree = "<group>";
+		};
+		ABF424FA2B2FD65F00B901DA /* annotation-output */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "annotation-output";
+			sourceTree = "<group>";
+		};
+		ABF424FB2B2FD65F00B901DA /* compile-output */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424FC2B2FD65F00B901DA /* com */,
+			);
+			path = "compile-output";
+			sourceTree = "<group>";
+		};
+		ABF424FC2B2FD65F00B901DA /* com */ = {
+			isa = PBXGroup;
+			children = (
+				ABF424FD2B2FD65F00B901DA /* jebzcpcalendar */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		ABF424FD2B2FD65F00B901DA /* jebzcpcalendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jebzcpcalendar;
+			sourceTree = "<group>";
+		};
+		ABF424FF2B2FD65F00B901DA /* outputs */ = {
+			isa = PBXGroup;
+			children = (
+				ABF425002B2FD65F00B901DA /* logs */,
+			);
+			path = outputs;
+			sourceTree = "<group>";
+		};
+		ABF425002B2FD65F00B901DA /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				ABF425012B2FD65F00B901DA /* manifest-merger-debug-report.txt */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		ABF425032B2FD65F00B901DA /* .idea */ = {
+			isa = PBXGroup;
+			children = (
+				ABF425042B2FD65F00B901DA /* jarRepositories.xml */,
+				ABF425052B2FD65F00B901DA /* gradle.xml */,
+				ABF425062B2FD65F00B901DA /* vcs.xml */,
+				ABF425072B2FD65F00B901DA /* .gitignore */,
+				ABF425082B2FD65F00B901DA /* workspace.xml */,
+				ABF425092B2FD65F00B901DA /* misc.xml */,
+				ABF4250A2B2FD65F00B901DA /* compiler.xml */,
+			);
+			path = .idea;
+			sourceTree = "<group>";
+		};
+		ABF4250B2B2FD65F00B901DA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4250C2B2FD65F00B901DA /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		ABF4250C2B2FD65F00B901DA /* main */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4250D2B2FD65F00B901DA /* AndroidManifest.xml */,
+				ABF4250E2B2FD65F00B901DA /* java */,
+				ABF425142B2FD65F00B901DA /* AndroidManifestNew.xml */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		ABF4250E2B2FD65F00B901DA /* java */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4250F2B2FD65F00B901DA /* com */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		ABF4250F2B2FD65F00B901DA /* com */ = {
+			isa = PBXGroup;
+			children = (
+				ABF425102B2FD65F00B901DA /* jebzcpcalendar */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		ABF425102B2FD65F00B901DA /* jebzcpcalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ABF425112B2FD65F00B901DA /* Utils.java */,
+				ABF425122B2FD65F00B901DA /* RNAddCalendarModule.java */,
+				ABF425132B2FD65F00B901DA /* RNAddCalendarPackage.java */,
+			);
+			path = jebzcpcalendar;
+			sourceTree = "<group>";
+		};
+		ABF425162B2FD65F00B901DA /* .idea */ = {
+			isa = PBXGroup;
+			children = (
+				ABF425172B2FD65F00B901DA /* vcs.xml */,
+				ABF425182B2FD65F00B901DA /* .gitignore */,
+				ABF425192B2FD65F00B901DA /* workspace.xml */,
+				ABF4251A2B2FD65F00B901DA /* modules.xml */,
+				ABF4251B2B2FD65F00B901DA /* RNAddCalendar.iml */,
+			);
+			path = .idea;
+			sourceTree = "<group>";
+		};
+		ABF4251C2B2FD65F00B901DA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4251D2B2FD65F00B901DA /* index.tsx */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-modak_art.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-modak_art.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-modak_art-modak_artTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-modak_art-modak_artTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* modak_artTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "modak_artTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = modak_artTests;
+			productName = modak_artTests;
+			productReference = 00E356EE1AD99517003FC87E /* modak_artTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* modak_art */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "modak_art" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = modak_art;
+			productName = modak_art;
+			productReference = 13B07F961A680F5B00A75B9A /* modak_art.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "modak_art" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* modak_art */,
+				00E356ED1AD99517003FC87E /* modak_artTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E0FE20CCE3D44A46A3E4747E /* Poppins-Black.ttf in Resources */,
+				3946E708C7F441FC9333E9A0 /* Poppins-BlackItalic.ttf in Resources */,
+				993CA45B775C4186841B482E /* Poppins-Bold.ttf in Resources */,
+				0A52F9F606CF4DAD9806E063 /* Poppins-BoldItalic.ttf in Resources */,
+				779255A0736042AFBF91A214 /* Poppins-ExtraBold.ttf in Resources */,
+				BCC9A72A7CD84F898F21E469 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				9F186F90A03C4A8084944A26 /* Poppins-ExtraLight.ttf in Resources */,
+				69277DE5CA024C3B998EB690 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				D69ECA5C67544C7698443F36 /* Poppins-Italic.ttf in Resources */,
+				99AF83C1A1DB474BB223ED99 /* Poppins-Light.ttf in Resources */,
+				05D694F5B65645FDABDBDAFA /* Poppins-LightItalic.ttf in Resources */,
+				D8CF6BE5E8F64787AFC18A6F /* Poppins-Medium.ttf in Resources */,
+				E6976C56BECB40369968F047 /* Poppins-MediumItalic.ttf in Resources */,
+				855FD73CD0AD471E8D3880E6 /* Poppins-Regular.ttf in Resources */,
+				F188472BD94647E583FCA103 /* Poppins-SemiBold.ttf in Resources */,
+				0BD8ADD59F2645FFBDD31DB2 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				D0563C470D264EEEA8A684CB /* Poppins-Thin.ttf in Resources */,
+				8A77E2264F144ACCBBC2078B /* Poppins-ThinItalic.ttf in Resources */,
+				2062B03766B44176BAAE5942 /* OFL.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art/Pods-modak_art-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art/Pods-modak_art-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-modak_art/Pods-modak_art-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-modak_art-modak_artTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-modak_art-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art/Pods-modak_art-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art/Pods-modak_art-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-modak_art/Pods-modak_art-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-modak_art-modak_artTests/Pods-modak_art-modak_artTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* modak_artTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* modak_art */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-modak_art-modak_artTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = modak_artTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modak_art.app/modak_art";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-modak_art-modak_artTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = modak_artTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modak_art.app/modak_art";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-modak_art.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = modak_art/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = modak_art;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-modak_art.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = modak_art/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = modak_art;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "modak_artTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "modak_art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "modak_art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
